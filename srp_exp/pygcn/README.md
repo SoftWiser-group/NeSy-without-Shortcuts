@@ -1,7 +1,1 @@
-
-
-```
-
-```
-
-https://github.com/tkipf/pygcn
+Download the [pygcn](https://github.com/tkipf/pygcn) code here
