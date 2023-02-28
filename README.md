@@ -24,5 +24,5 @@ To reproduce the experimental results, Run the command `sh run.sh`
 
 - We also provide baseline methods in MNIST task, one can refer to `/mnist_exp/baselines` for more details.
 
-- A limitaion of current implementation is that we need define the pair of 
+- Our another work (see paper Softened Symbol Grounding for Neuro-symbolic Systems) can also avoid the shortcuts, but do not need to additionally define the dual variable. 
 
