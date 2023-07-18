@@ -87,8 +87,7 @@ def initial_constriants():
                 cons = []
                 for k in range(g.n):
                     adj_tmp = adj.clone()
-                    adj_tmp = adj_tmp[[0,k],:]
-                    adj_tmp = adj_tmp[:, [0,k]]
+                    adj_tmp = swap(adj_tmp, 0, k)
                     temp_out = net(adj_tmp).clone().detach()
                     for i in range(out.shape[0]):
                         if i == k:
